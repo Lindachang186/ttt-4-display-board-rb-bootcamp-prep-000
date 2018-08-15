@@ -1,6 +1,6 @@
 # Define display_board that accepts a board and prints
 # out the current state.
-def display_board(array)
+def display_board(board)
   dividers = "-----------"
   vertical_dividers = "   |   |   "
   puts vertical_dividers
@@ -11,5 +11,3 @@ def display_board(array)
 end
 board = [" "," "," "," "," "," "," "," "," "]
 print display_board(board)
-board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
-display_board(board)
