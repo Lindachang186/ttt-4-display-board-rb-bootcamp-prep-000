@@ -3,11 +3,11 @@
 def display_board(array)
   dividers = "-----------"
   vertical_dividers = "   |   |   "
-  print vertical_dividers
-  print dividers
-  print vertical_dividers
-  print dividers
-  print vertical_dividers
+  puts vertical_dividers
+  puts dividers
+  puts vertical_dividers
+  puts dividers
+  puts vertical_dividers
 end
 board = [" "," "," "," "," "," "," "," "," "]
 print display_board(board)
