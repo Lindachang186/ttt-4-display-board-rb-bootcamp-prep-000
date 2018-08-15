@@ -10,6 +10,6 @@ def display_board(array)
   puts vertical_dividers
 end
 board = [" "," "," "," "," "," "," "," "," "]
-display_board(board)
+print display_board(board)
 board = [" "," "," "," ","X"," "," "," "," "]
-display_board(board)
+print display_board(board)
