@@ -11,5 +11,5 @@ def display_board(array)
 end
 board = [" "," "," "," "," "," "," "," "," "]
 display_board(board)
-board = [" ","X"," "," "," "," "," "," "," "]
+board = [" "," "," "," ","X"," "," "," "," "]
 display_board(board)
